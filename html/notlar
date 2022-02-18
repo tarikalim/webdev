@@ -1,0 +1,98 @@
+Etiketler:
+
+html: sitenin başlangıç ve sonu.
+
+head: yardımcı etiket, içerisinde başka etiketler barındırır.(title gibi)
+
+title: arasına sitenin çubuktaki adı girilir.
+
+body: sayfa içeriğinin tamamı burada bulunur.
+
+b: içerisindeki texti kalın yapar.
+
+strong: içerisindeki yazıları kalın yapar.
+
+br: bir alt satıra geçer.(kendinden sonra gelen ifadeyi alt satıra koyar.)(kapatılmaz)
+
+br/: satır boşluğu bırakır.(br etiketinden biraz daha ufak bir boşluk bırakır iki satır arasında.)(kapatılmaz)
+
+U: yazıları altı çizili yapar.
+
+i: yazıyı eğik yapar.
+
+font: yazıya renk, yazı tipi ve yazı büyüklüğü vermeye yarar
+parametreleri:
+font içerisindeki color rengi, face, yazı tipini, size büyüklüğü seçmeye yarar.
+
+h etiketleri: h1'den h7'ye kadar gittikçe küçülen başlıklar atmaya yarar.
+başlıklar arası boşluğu kendisi otomatik koyar.
+
+img: resim koymaya yarar, kapatılmaz.(html dosyası ile resim aynı dosyada değilse yolunu belirtmek gerekiyor.)
+parametreleri:
+src: ekelenecek görselin adını barındırır.
+witdh: genişlik.
+height: yükseklik.
+title: açıklama balonu.
+alt: arama motorlarına açıklama.(arama motorundan arama yapılırken görsellerde arama yapıldığında çıkması için)
+border: kenarlık için(0 yapınca kenarlar yok olur).
+align(right,left): resmi sağa sola yaslar.
+
+ol: Sıralı liste etiketidir, kapatılır.Liste elemanları li etiketi ile oluşturulur.
+parametreleri:
+type: sıralı listenin türünü belirtir.(a,b,c- 1,2,3 gibi)
+start: sıralı listenin nereden (hangi sıradan) başlayacağını belirtir.(örn: harf listesi oluşturup startı 10 yaparsan 10. harften başlar mesela.)
+
+ul: sırasız liste etiketidir, li etiketi ile oluşturulur.
+parametreleri:
+type parametresi: sırasız listenin türü.
+square: içi dolu kare.
+circle: içi boş çember.
+disc: içi dolu çember.
+
+a: Link etiketidir. Web sayfalarına link vermek için kullanılır. Kapatılan bir etikettir.
+parametreleri:
+href: yönlenilecek sayfanın adının ya da adresinin belirlenmesinde kullanılır.
+target:yönlenilen sayfanın hangi sekmede açılacağını belirler.(blank ifadesi ile)
+href parametresi içinde kullanılan # işareti yönlenmenin sayfa içi bir yere olacağını gösterir.
+name: sayfa içi yönlenilecek durağın tanımlanmasında kullanılır.(deneme3 dosyasında her şey var.)
+
+table: tablo oluşturmaya yarar.
+parametreleri:
+border: tablo kenarlığını.
+<tr>: tablo satırlatırını.
+<td>: satırlarda yer alan hücreleri oluşturur.
+colspan: yan yana olan hücreleri birleştirir.
+rowspan: alt alta olan hücreleri birleştirir.
+
+align:bir yazının bulunduğu konumdaki yerini belirler.
+parametreleri:
+left
+right
+center
+
+bgcolor: arkaplan rengi verir.
+
+cellspacing:hücreler arası boşlukları siler.
+backgroun: arkaplan ekler
+
+iframe=çerçeve yapar.(örnek kullanım için deneme6-deneme7)
+parametreleri:
+width:genişlik
+height:yükseklik
+src:içinde görüntülendirilmek istenen html sayfasının belirlenmesi.
+frameborder:çerçeve kalınlığı
+name:çerçeve adı.
+scrolling: kaydırma çubuğunu siler.
+
+p:paragraf yapar.(içi boş olursa satır boşluğu bırakmaya da yarar.)
+
+hr:çizgi çeker. width ile uzumluğu ayarlananilir.color ile rengi ayarlanabilir.
+
+input: form elemanlarını oluşturmada kullanılır. Input almayı sağlar.
+parametreleri:
+text:metin kutusu
+radio:tekli seçim
+deneme9'da detaylı örnek mevcut.
+checkbox:çoklu seçim
+button:düğme
+size:uzunluğu değiştirebilirsin
