@@ -1,0 +1,13 @@
+div:kutu
+style:etikete css eklentesi ekler
+parametreleri:
+width:genişlik
+height:yükseklik
+background:arka plan
+border:kenarlık
+color:yazı rengi
+font:boyutu
+align:yazı hizası
+margin:dış boşluk
+padding:iç boşluk
+(detaylı örnek css1'de var.)
